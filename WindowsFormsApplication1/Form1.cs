@@ -31,7 +31,8 @@ namespace WindowsFormsApplication1
         {
             if(txtuser.Text == "admin" || txtpassword.Text=="admin")
             {
-                MessageBox.Show("dang nhap thanh cong");
+                Form2 fom2 = new Form2();
+                fom2.Show();
             }
             else {
                 MessageBox.Show("dang nhap that bai");
