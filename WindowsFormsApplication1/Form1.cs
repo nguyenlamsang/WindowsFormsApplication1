@@ -26,5 +26,16 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if(txtuser.Text == "admin" || txtpassword.Text=="admin")
+            {
+                MessageBox.Show("dang nhap thanh cong");
+            }
+            else {
+                MessageBox.Show("dang nhap that bai");
+            }
+        }
     }
 }
